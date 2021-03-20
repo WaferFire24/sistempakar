@@ -1,0 +1,64 @@
+PENYAKIT:
+P07	Eksim
+P06	Jerawat
+P05	Bisul
+P04	Herpes
+P03	Kurap
+P02	Kudis
+P01	Melanoma
+
+GEJALA:
+G17	Tumbuh benjolan berisi nanah
+G16	Rasa gatal yang perih
+G15	Rasa gatal yang panas
+G14	Kulit terasa berminyak
+G13	Tumbuh benjolan kecil agak memutih
+G12	Kulit terasa perih
+G11	Muncul benjolan merah
+G10	Gatal dibagian selangkangan kaki/ketiak/leher/bokong/punggung
+G09	Kulit melepuh
+G08	Kulit meradang
+G07	Tumbuh benjolan merah kecoklatan
+G06	Tumbuh benjolan dipermukaan kulit
+G05	Kondisi kulit yang berubah
+G04	Rasa gatal pada malam hari
+G03	Terasa gatal yang tidak tertahan
+G02	Kulit seperti bersisik
+G01	Warna kulit menjadi merah
+
+RULE:
+P01	Melanoma
+G03	Terasa gatal yang tidak tertahan
+G02	Kulit seperti bersisik
+G01	Warna kulit menjadi merah
+
+P02	Kudis
+G04	Rasa gatal pada malam hari
+G03	Terasa gatal yang tidak tertahan
+G02	Kulit seperti bersisik
+G01	Warna kulit menjadi merah
+
+P03	Kurap
+G07	Tumbuh benjolan merah kecoklatan
+G06	Tumbuh benjolan dipermukaan kulit
+G05	Kondisi kulit yang berubah
+
+P04	Herpes
+G10	Gatal dibagian selangkangan kaki/ketiak/leher/bokong/punggung
+G09	Kulit melepuh
+G08	Kulit meradang
+
+P05	Bisul
+G13	Tumbuh benjolan kecil agak memutih
+G12	Kulit terasa perih
+G11	Muncul benjolan merah
+
+P06	Jerawat
+G11	Muncul benjolan merah
+G14	Kulit terasa berminyak
+G13	Tumbuh benjolan kecil agak memutih
+
+P07	Eksim
+G17	Tumbuh benjolan berisi nanah
+G16	Rasa gatal yang perih
+G15	Rasa gatal yang panas

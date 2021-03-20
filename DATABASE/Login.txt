@@ -1,0 +1,11 @@
+Admin
+username: admin
+password: admin
+
+Pakar
+username: dokter
+password: dokter
+
+User
+username: user
+password: user

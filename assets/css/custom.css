@@ -1,0 +1,42 @@
+.required {
+  color: #e02222;
+  font-size: 12px;
+  padding-left: 2px;
+}
+/* Styling tabel header */
+.tabel-header > thead > tr > th {
+  vertical-align: middle;
+  text-align:center;
+  background: rgb(216, 216, 216);
+}
+/* Datatable remove sorting arrow icon */
+.dataTable > thead > tr > th[class*="sort"]:after{
+  content: "" !important;
+}
+.dataTable > thead > tr > th[class*="sort"]:before{
+  content: "" !important;
+}
+/* Custom section */
+.content-custom {
+  min-height: 250px;
+}
+/* Table custom */
+.table-custom {
+  min-height: 380px;
+}
+.button-right {
+  float: right;
+}
+.vertical {
+  margin-top: 50%;
+}
+/* input custom width form control */
+.form-control-custom {
+  width: 100px;
+}
+/* disable arrow input number */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
